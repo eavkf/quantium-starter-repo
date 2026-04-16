@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #ffe0f0 0%, #ffd6e8 50%, #ffe8f5 100%);
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #d63384;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 8px rgba(214, 51, 132, 0.2);
+    margin-bottom: 10px;
+}
+
+h1::before {
+    content: '🌸 ';
+}
+
+h1::after {
+    content: ' 🌸';
+}
